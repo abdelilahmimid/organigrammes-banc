@@ -54,11 +54,3 @@ git push -u origin ma-modification
 ```
 
 Ouvre ensuite la pull request sur GitHub (bouton **« Compare & pull request »**).
-
-## Bonnes pratiques
-
-- **Une pull request = un sujet** (un organigramme, une correction). C'est plus simple à relire.
-- **Pars toujours de la dernière version en ligne.** Recharge le site (ou fais `git pull` sur `main`) avant de commencer, pour ne pas écraser le travail des autres.
-- **Préviens l'équipe avant de modifier un organigramme** : ouvre une *issue* (onglet Issues) qui dit sur quoi tu travailles. Tout est dans un seul fichier, deux personnes sur la même figure en même temps créent des conflits.
-- **Vérifie avant de proposer** : ouvre ton `index.html` dans le navigateur et contrôle que la page s'affiche et que les figures sont correctes.
-- Les organigrammes suivent la norme ISO 5807 : un test est un losange à deux sorties Oui / Non, une action est un rectangle. La légende « Symboles utilisés » en haut de la page sert de référence.

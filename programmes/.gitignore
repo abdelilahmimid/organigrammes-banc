@@ -1,0 +1,24 @@
+# MPLAB X : fichiers générés et réglages propres à chaque PC
+**/build/
+**/dist/
+**/debug/
+**/nbproject/private/
+**/nbproject/Makefile-*
+**/nbproject/Package-*
+*.hex
+*.elf
+*.map
+*.o
+
+# Arduino : fichiers générés
+*.bin
+*.eep
+
+# Systèmes et éditeurs
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+*.tmp
+~$*
+**/.generated_files/
